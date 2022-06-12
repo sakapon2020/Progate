@@ -1,0 +1,97 @@
+@charset "UTF-8";
+.landing-first {
+    &__imagebox {
+        min-width: 1000px;
+        margin: 0 auto;
+    }
+}
+.landing-second {
+    &__imagebox {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.landing-story {
+    padding: 40px 20px 20px 20px;
+    & h2 {
+        padding: 24px 0 24px 0;
+        text-align: center;
+    }
+
+    & p {
+        line-height: 1.75em;
+    }
+
+    & .story-list {
+        max-width: 1000px;
+    }
+}
+.landing-app {
+    &__main {
+        text-align: center;
+
+        &-image {
+            width: 100%;
+        }
+
+        &-inner {
+            margin: 40px auto;
+            padding: 64px 64px 40px;
+        }
+    }
+}
+.landing-create {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footer {
+    opacity: .7;
+
+    &__main {
+        margin-top: 15px;
+        text-align: center;
+
+        & .col-sm-2 {
+            margin-top: 40px;
+            padding: 0;
+
+            & ul {
+                padding-right: 33px;
+            }
+        }
+    }
+
+    &__menus {
+        padding-top: 10px;
+        font-size: .75rem;
+    }
+
+    &__business {
+        &-banner {
+            margin-right: auto;
+            margin-left: auto;
+            background-color: rgb(255 255 255);
+            box-shadow: rgb(0 0 0 / 12%) 0 1px 6px,
+                rgb(0 0 0 / 12%) 0 1px 4px;
+            border-radius: 2px;
+            padding: 20px 15px;
+            max-width: 248px;
+            transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+        }
+
+        &-plan-description {
+            display: block;
+            max-width: 248px;
+            margin: 20px auto 0;
+            background-color: rgb(249 251 254);
+            border-radius: 2px;
+            padding: 20px 23px;
+        }
+    }
+
+    &__copyright {
+        font-size: 0.625rem;
+        text-align: center;
+    }
+}
