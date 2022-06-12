@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+img {
+    max-width: 767px;
+}
 .landing-story {
     padding: 40px 10px 10px 10px;
     & h2 {
